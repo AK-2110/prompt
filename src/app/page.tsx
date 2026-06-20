@@ -59,7 +59,7 @@ export default function Home() {
         </motion.div>
 
         {/* Feature Highlights */}
-        <motion.div variants={containerVariants} className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-20 text-left">
+        <motion.div id="features" variants={containerVariants} className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-20 text-left">
           <motion.div variants={itemVariants} className="glass p-6 rounded-2xl hover:-translate-y-1 transition-transform duration-300">
             <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center mb-4">
               <FileText className="text-primary w-6 h-6" />
